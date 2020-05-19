@@ -1,0 +1,35 @@
+{
+  "name": "xml-summary",
+  "version": "0.1.0",
+  "description": "Get a summary of an XML file in plain text.",
+  "main": "src/index.js",
+  "bin": "bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/moos/xml-summary"
+  },
+  "files": [
+    "bin",
+    "src",
+    "package-lock.json"
+  ],
+  "keywords": [
+    "xml",
+    "summary",
+    "json"
+  ],
+  "author": "Moos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moos/xml-summary/issues"
+  },
+  "homepage": "https://github.com/moos/xml-summary",
+  "dependencies": {
+    "fast-xml-parser": "^3.16.0",
+    "json-summary": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
