@@ -1,6 +1,11 @@
+[![NPM version](https://img.shields.io/npm/v/xml-summary.svg)](https://www.npmjs.com/package/xml-summary)
+[![Build Status](https://img.shields.io/travis/moos/xml-summary/master.svg)](https://travis-ci.org/moos/xml-summary)
 
 # xml-summary
- Get a summary of an XML file in plain text.
+
+ Get a summary of an XML file in plain text (much like [json-summary](https://andrewtburks.dev/json-summary/)).
+
+Particularly useful for large XML files.
 
 ## Install
 ```
@@ -27,18 +32,18 @@ Any [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser#xml
 
 ## CLI
 
-```bash
+```
 $ xml-summary file.xml [options]
 
 Options:
-  --attrs            Include attributes in summary
-  --example-values   Include example values
-  --json             Output as parsable JSON
+  --attrs      Include attributes in summary
+  --values     Include example values
+  --json       Output as parsable JSON
 ```
 
 ## Example
 ```
-$ node .\bin\cli.js sample\email.xml
+$ xml-summary sample/email.xml
   emails:
     email: (4) [
         to: 100% <string>
@@ -48,10 +53,10 @@ $ node .\bin\cli.js sample\email.xml
     ]
 ```
 
-See [json-summary](https://andrewtburks.dev/json-summary/) for further examples.
+See [json-summary](https://andrewtburks.dev/json-summary/) for further examples of output.
 
 # License
 MIT
 
 # Change log
-- v0.1.0 - initial version
+- 0.1.0 - initial version
