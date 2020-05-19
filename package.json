@@ -1,6 +1,6 @@
 {
   "name": "xml-summary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get a summary of an XML file in plain text.",
   "main": "src/index.js",
   "bin": "bin/cli.js",
@@ -30,6 +30,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node bin/cli.js sample/email.xml"
   }
 }

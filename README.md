@@ -59,4 +59,5 @@ See [json-summary](https://andrewtburks.dev/json-summary/) for further examples 
 MIT
 
 # Change log
+- 0.1.1 - Add basic test
 - 0.1.0 - initial version
